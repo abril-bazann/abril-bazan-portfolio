@@ -1,0 +1,60 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $background-color;
+    color: $color-principal;
+    font-family: $font;
+}
+  
+.progress{
+    margin: 3rem;
+}
+.div_h1_p{
+    display: flex;
+    margin-bottom: 1rem;
+    grid-column: auto;
+    flex-direction: column;
+    align-items: center;
+    p{
+        justify-content: space-around;
+        margin: 2rem;
+    }
+    
+
+}
+.linea_del_tiempo{
+    margin: 1rem;
+    align-items: center;
+
+    h3{
+        margin: 2rem;
+        display: flex;
+        justify-content: space-around;
+        color: $color-secundario;
+    }
+}
+.about_me{
+    display: flex;
+    margin-bottom: 1rem;
+    grid-column: auto;
+    flex-direction: column;
+    h2{
+        align-items: left;
+        margin-left: 1rem;
+        color: $color-secundario;
+    }
+    p{
+        justify-content: space-around;
+        margin: 2rem;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,56 @@
+/*variables*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #E3E3E3;
+  font-family: "Fira Code";
+}
+
+.progress {
+  margin: 3rem;
+}
+
+.div_h1_p {
+  display: flex;
+  margin-bottom: 1rem;
+  grid-column: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.div_h1_p p {
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.linea_del_tiempo {
+  margin: 1rem;
+  align-items: center;
+}
+.linea_del_tiempo h3 {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  color: #7C79AD;
+}
+
+.about_me {
+  display: flex;
+  margin-bottom: 1rem;
+  grid-column: auto;
+  flex-direction: column;
+}
+.about_me h2 {
+  align-items: left;
+  margin-left: 1rem;
+  color: #7C79AD;
+}
+.about_me p {
+  justify-content: space-around;
+  margin: 2rem;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
