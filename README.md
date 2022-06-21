@@ -1,1 +1,2 @@
 # abril-bazan-portfolio
+This is my personal portfolio where I go into detail about who I am, who I want to become and how I am getting there. In this page you can see my skills, my inspirations and my contact info. Thank you for reading :) 
