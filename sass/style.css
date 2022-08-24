@@ -17,6 +17,7 @@ body {
 
 .div_h1_p {
   display: flex;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   grid-column: auto;
   flex-direction: column;
@@ -53,4 +54,77 @@ body {
   justify-content: space-around;
   margin: 2rem;
   align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box {
+  display: inline-block;
+  margin: 40px;
+  cursor: pointer;
+}
+
+.icon-box a {
+  display: block;
+  background: #000000;
+  padding: 20px;
+  position: relative;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.icon-box a::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  left: -20px;
+  top: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.icon-box a::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  transform: rotate(0deg) skewX(-45deg);
+  background: rgba(0, 0, 0, 0.7);
+  transform: rotate(45deg) scewY(-45deg);
+}
+
+.icon-box a:hover {
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+  box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+}
+
+.icon-box a svg {
+  color: white;
+  font-size: 30pt;
+}
+
+.icon-box:nth-child(1) a svg {
+  color: #1DA1F2;
+}
+
+.icon-box:nth-child(2) a svg {
+  color: #FFFFFF;
+}
+
+.icon-box:nth-child(3) a svg {
+  color: #0A66C2;
+}
+
+.icon-box:nth-child(4) a svg {
+  color: #FF0063;
 }/*# sourceMappingURL=style.css.map */
